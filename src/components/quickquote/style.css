@@ -1,0 +1,38 @@
+.my-container-r{
+    display: flex;
+    justify-content: center !important;
+    background-image: url("./images/background.jpg");
+    padding: 0% 15%;
+    background-position: center;
+}
+.p-r{
+    color: grey;
+    font-size: 15px;
+    letter-spacing:0em;
+}
+.heading-r{
+    font-weight: bold;
+    font-size: 36px;
+    color: #1c2534;
+    margin: 0px 0px 10px 0px;
+    letter-spacing: -.025em;
+
+    font-family:Montserrat,Helvetica,Arial,sans-serif;
+}
+
+
+.column-r{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.MuiInputBase-focused-124.MuiInputBase-focused-110.MuiInputBase-root-122.MuiOutlinedInput-root-109.MuiInputBase-formControl-123{
+    outline-width: 0;
+    border:none;
+}
+.field-r{
+    border: 2px solid rgb(221, 221, 221)
+}
+

@@ -1,0 +1,97 @@
+.arrow-r {
+    top: -1px;
+    left: 54px;
+    width: 0px;
+    border-left: 50px solid transparent;
+    border-right: 59px solid #FBD232;
+    border-bottom: 27px solid #FBD232;
+    border-top: 25px solid #FBD232;
+    border-left: 24px solid transparent;
+}
+
+.arrow1-r {
+  border-left: 38px solid transparent;
+    border-right: 0px solid #FBD232;
+    border-bottom: 37px solid #FBD232;
+    transform: rotate(314deg);
+    position: absolute;
+    left: 64px;
+    top: 7px;
+
+
+  }
+.relative2-r{
+    position: relative;
+    display: flex;
+    flex-wrap:wrap; 
+}
+.relative2-r:hover .arrow-r{
+    top: -1px;
+    left: -26px;
+    border-left: 50px solid transparent;
+    border-right: 59px solid black;
+    border-bottom: 27px solid black;
+    border-top: 25px solid black; 
+    border-left: 24px solid transparent;
+    transition:  0.5s;
+}
+.relative2-r:hover .arrow1-r{
+    border-left: 35px solid transparent;
+    border-right: -2px solid black;
+    border-bottom: 37px solid black;
+    transform: rotate(316deg);
+    position: absolute;
+    left: 65px;
+    top: 7px;
+    transition:  0.5s;
+
+ 
+}
+.relative2-r:hover .icon-position-r{
+    color: #FBD232;
+}
+.relative1-r{
+    position: relative;
+      display: flex;
+   
+}
+.arrow_First-r{
+    margin-right: -3px;
+    width: 300px;
+    height: 52px;
+    background-color: #FBD232;
+}
+
+.arrow_Second-r {
+    margin-left: -33px;
+    margin-top: -40px;
+    border-left: 32px solid transparent;
+    border-right: -2px solid #FBD232;
+    border-bottom: 39px solid #FBD232;
+    transform: rotate(316deg);
+    /* position: absolute; */
+    left: 236px;
+    top: -5px;
+}
+ .relative1-r:hover .arrow_Second-r {
+
+    border-left: 32px solid transparent;
+    border-right: -2px solid #FBD232;
+    border-bottom: 39px solid #FBD232;
+    transform: rotate(316deg);
+    top: 5px;
+    transition:  0.5s;
+
+}
+.fbar-container-r{
+    margin-top: -26px;
+    margin-bottom: -26px;
+}
+
+.icon-position-r{
+    position: absolute;
+    z-index: 100;
+    margin-top: -10px;
+    margin-left: 26px;
+
+}

@@ -1,0 +1,152 @@
+
+/* ///////////////////////////////////////////////////////////                      for all   */
+@media (min-width: 800px){
+    .S-otherComponent {
+        display: flex;
+        justify-content:center;
+        flex-direction: row;
+        height: 60%;
+        width:70%;
+        margin:2% 13%;
+    }
+}
+@media (max-width: 799px) {
+    .S-otherComponent {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+/* ////////////////////////////////////////                for Image */
+@media (min-width:800px) {
+    .S-responsiveImage {
+        margin-top: 10px;
+        height: auto;
+        width:100%;
+    }
+}
+@media (max-width:799px) {
+    .S-responsiveImage { 
+        margin-top: 10px;
+        height: 160px;
+        width: 270px; 
+        margin:0; 
+    }
+}
+/* //////////////////////////////////////                     for title */
+@media (min-width:1100px) {
+    .S-titleItem {
+        display: flex;
+        flex-wrap: wrap;
+        width: 240px;
+        margin-top: 20px;
+        font-weight: bolder;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:1099px) {
+    .S-titleItem { 
+        height: 100px;
+        width: 150px; 
+        margin-top: 20px;
+        font-weight: bolder;
+    }
+}
+/* //////////////////////////////////////////////////////////////////////////////////////                        */
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+li {
+    /* text-decoration: none; */
+    list-style-type: none;
+}
+.S-a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.S-a:hover {
+    color:rgb(243, 206, 41);
+}
+/* /////////////////////////////////////////////////                             for     time         */
+@media (min-width: 1000px) {
+    .S-dateItem {
+        background-image: url("../../images/sign.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 200px;
+        margin-top: -19px;
+        height: 35px;
+        line-height: 35px;
+        padding-left: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        position: relative;
+        font-family: Lato,Helvetica,Arial,sans-serif;
+    }
+}
+@media (max-width: 999px) {
+    .S-dateItem {
+        background-color: white;
+        font-size:12px;
+        margin-top: -4px;
+        height: 30px;
+        padding-left: 5px;
+        padding-right:1px;
+        line-height: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-family: Lato,Helvetica,Arial,sans-serif;
+    }
+}
+.S-timeImage {
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 14px;
+    line-height: 19px;
+}
+@media (max-width: 999px) {
+    .S-timeImage {
+        height:10px;
+        padding-left: 1px;
+        padding-right: none;
+    }
+}
+.S-smsImage {
+    padding-left:20px;
+    padding-right: 5px;
+    cursor: default;
+}
+@media (max-width: 799px) {
+    .S-smsImage{
+        padding-left: 35px;
+        padding-right:10px;
+        line-height: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 768px) {
+    .linksAppjs {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .hello {
+        display: none;
+    }
+} */

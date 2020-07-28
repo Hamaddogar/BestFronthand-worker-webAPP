@@ -1,0 +1,28 @@
+
+.S-maindiv {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    height:100%;
+    width:100%;
+    background-color: #1c2535 !important;
+}
+.S-heading {
+    text-align: center;
+    color:#ffffff;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-style: normal;
+
+    margin-top:40px;
+
+}
+.S-paragraph01 {
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    text-align: center;
+    color:#aaaaaa;
+    margin-right:40px;
+    font-size: 14px;
+}

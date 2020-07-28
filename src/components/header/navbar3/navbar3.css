@@ -1,0 +1,96 @@
+.nav3-container-r{
+    width: 100%;
+    height: 33px;
+    background-color: #ffffff;
+    display: flex;
+    z-index: 100;
+}
+.nav3-box1-r{
+    width: 230px;
+    height: 66px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 100;
+
+}
+.nav3-box2-r{
+    display: flex;
+    align-items: center !important;
+    color: #666666 !important;
+    font-weight: bold !important;
+    height: 66px !important;
+    background-color: #ffffff !important;
+    position: relative !important;
+    font-size: 14px !important;
+    padding:0px 20px 0px 20px !important;
+    border-radius: 0px !important;
+    z-index: 100;
+
+
+}
+.nav3-box2-last-r{
+    display: flex;
+    align-items: center !important;
+    color: #666666 !important;
+    font-weight: bold !important;
+    height: 66px !important;
+    background-color: #ffffff !important;
+    position: relative !important;
+    font-size: 14px !important;
+    padding:0px 20px 0px 20px !important;
+    border-radius: 0px !important;
+     border-bottom-right-radius: 20px !important;
+    z-index: 100;
+
+}
+.extras2-dropdown-r{
+    width: 260px !important;
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 0px !important;
+    padding: 10px !important;
+    border-top: 4px solid #fbd232 !important;
+    opacity: 1 !important;
+    margin-top: -67px !important;
+    position: relative;
+    z-index: 120;
+    animation-name: example;
+  animation-duration: 0.5s;
+}
+@keyframes example {
+    0%   {margin-top: -57px}
+    100% {margin-top: -67px}
+  }
+.extras2-links-r{
+    color: grey!important;
+    font-size: 14px  !important ;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;    
+}
+
+
+.extras2-links-r:hover{
+    color: rgb(51, 47, 47) !important;
+    background-color: white !important;
+}
+.last-corner-nav3-r {
+    top: -64px;
+    left: 87%;
+    width: 0;
+    height: 0;
+    border-top: 33px solid transparent;
+    border-left: 33px solid rgb(255, 255, 255);
+    border-bottom: 34px solid transparent;
+    z-index: 110;
+    position: relative;
+  }
+  .first-corner-nav3-r {
+      top: 2%;
+    left: 94%;
+    width: 0;
+    height: 0;
+    border-top: 33px solid transparent;
+    border-left: 33px solid rgb(255, 255, 255);
+    border-bottom: 34px solid transparent;
+    z-index: 110;
+    position: relative;
+  }
